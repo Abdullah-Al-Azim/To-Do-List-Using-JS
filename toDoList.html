@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css link -->
+    <link rel="stylesheet" href="toDoList.css" />
+    <!-- iconify -->
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <h1
+      class="text-3xl text-white text-center font-bold tracking-widest underline underline-offset-4 mt-4"
+    >
+      To Do List
+    </h1>
+
+    <!-- form -->
+    <form>
+      <div class="total______form mt-5">
+        <div class="text____input____form flex items-center justify-center m-1">
+          <input class="todo_____input appearance-none rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Type Your Task...">
+         <p class="add_____icon">
+          <span
+          class="iconify icon text-3xl cursor-pointer ml-4"
+          data-icon="akar-icons:circle-plus"
+        ></span>
+         </p>
+        </div>
+        <!-- <div class="m-1">
+          <select class="user___select" name="todo____select">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="incompleted">Incompleted</option>
+          </select>
+        </div> -->
+      </div>
+    </form>
+
+    <!-- to do list -->
+    <div class="todo_____div">
+        <ul class="todo_____list">
+            
+        </ul>
+    </div>
+
+    <!-- js link -->
+    <script src="toDoList.js"></script>
+  </body>
+</html>

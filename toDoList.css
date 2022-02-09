@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap");
+* {
+  font-family: "Lora", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.icon {
+  color: #eab8e6;
+}
+.text____input____form {
+  background: #fff;
+  width: 21%;
+  padding: 5px;
+  border-radius: 4px;
+}
+.todoLI_____div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 5px;
+}
+.liText {
+  color: #a18cd1;
+}
+.todoBtn button {
+  border: 1px solid #a18cd1;
+  color: #a18cd1;
+  border-radius: 4px;
+  padding: 5px;
+  transition: all 0.2s ease-in-out;
+  margin: 2px;
+}
+.todo_____li {
+  padding: 5px;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 0.25rem;
+  transition: all 0.25s ease-in-out;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.fall {
+  transform: translateX(5rem);
+  opacity: 0;
+}
+.total______form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.user___select{
+  padding: 0.65rem !important;
+  border-radius: 5px !important;
+}
+
+@media (max-width: 1609px){
+  .text____input____form{
+    width: 26%;
+  }
+}
+@media (max-width: 1609px){
+  .text____input____form{
+    width: 34%;
+  }
+}
+@media (max-width: 1032px){
+  .text____input____form{
+    width: 42%;
+  }
+}
+@media (max-width: 800px){
+  .text____input____form{
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px){
+  .todo_____li{
+    width: 100%;
+  }
+  .todoBtn button{
+    padding: 1px;
+    margin: 1px;
+  }
+}
